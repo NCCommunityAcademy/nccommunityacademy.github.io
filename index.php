@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <meta name="google-site-verification" content="8-XLLmhglzkgexmeFIlM-5cQA23pqI49VPNIdtfxrOI" />
     <meta charSet="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Buat Cnc Mechine · Precious Machine Toolpaths</title>
