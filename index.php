@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NPE8BETG46"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NPE8BETG46');
+</script>
     <meta name="google-site-verification" content="8-XLLmhglzkgexmeFIlM-5cQA23pqI49VPNIdtfxrOI" />
     <meta charSet="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
