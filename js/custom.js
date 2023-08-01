@@ -78,6 +78,51 @@ window.addEventListener("DOMContentLoaded", function() {
         initiateSlideshows();
     }
 
+        function initiateSlideshows2() {
+        tns({
+            container: ".j-slideshow2",
+            items: 1,
+            controlsPosition: "bottom",
+            navPosition: "bottom",
+            slideBy: "page",
+            controlsText: ["<", ">"],
+            autoHeight: true
+        });
+    }
+    if (document.getElementsByClassName("j-slideshow2").length > 0) {
+        initiateSlideshows2();
+    }
+
+    function initiateSlideshows3() {
+        tns({
+            container: ".j-slideshow3",
+            items: 1,
+            controlsPosition: "bottom",
+            navPosition: "bottom",
+            slideBy: "page",
+            controlsText: ["<", ">"],
+            autoHeight: true
+        });
+    }
+    if (document.getElementsByClassName("j-slideshow3").length > 0) {
+        initiateSlideshows3();
+    }
+
+    function initiateSlideshows4() {
+        tns({
+            container: ".j-slideshow4",
+            items: 1,
+            controlsPosition: "bottom",
+            navPosition: "bottom",
+            slideBy: "page",
+            controlsText: ["<", ">"],
+            autoHeight: true
+        });
+    }
+    if (document.getElementsByClassName("j-slideshow4").length > 0) {
+        initiateSlideshows4();
+    }
+
     function getDownloadStats(url, linkId) {
         var $link = document.getElementById(linkId);
         var $fileSize = document.getElementById(linkId + "-fileSize");
