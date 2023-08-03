@@ -107,6 +107,20 @@ window.addEventListener("DOMContentLoaded", function() {
     if (document.getElementsByClassName("j-slideshow3").length > 0) {
         initiateSlideshows3();
     }
+        function initiateSlideshows5() {
+        tns({
+            container: ".j-slideshow5",
+            items: 1,
+            controlsPosition: "bottom",
+            navPosition: "bottom",
+            slideBy: "page",
+            controlsText: ["<", ">"],
+            autoHeight: true
+        });
+    }
+    if (document.getElementsByClassName("j-slideshow5").length > 0) {
+        initiateSlideshows5();
+    }
 
     function initiateSlideshows4() {
         tns({
