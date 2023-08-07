@@ -124,6 +124,66 @@ window.addEventListener("DOMContentLoaded", function() {
         initiateSlideshows4();
     }
 
+            function initiateSlideshows5() {
+        tns({
+            container: ".j-slideshow5",
+            items: 1,
+            controlsPosition: "bottom",
+            navPosition: "bottom",
+            slideBy: "page",
+            controlsText: ["<", ">"],
+            autoHeight: true
+        });
+    }
+    if (document.getElementsByClassName("j-slideshow5").length > 0) {
+        initiateSlideshows5();
+    }
+
+            function initiateSlideshows6() {
+        tns({
+            container: ".j-slideshow6",
+            items: 1,
+            controlsPosition: "bottom",
+            navPosition: "bottom",
+            slideBy: "page",
+            controlsText: ["<", ">"],
+            autoHeight: true
+        });
+    }
+    if (document.getElementsByClassName("j-slideshow6").length > 0) {
+        initiateSlideshows6();
+    }
+
+            function initiateSlideshows7() {
+        tns({
+            container: ".j-slideshow7",
+            items: 1,
+            controlsPosition: "bottom",
+            navPosition: "bottom",
+            slideBy: "page",
+            controlsText: ["<", ">"],
+            autoHeight: true
+        });
+    }
+    if (document.getElementsByClassName("j-slideshow7").length > 0) {
+        initiateSlideshows7();
+    }
+
+
+        function initiateSlideshows8() {
+        tns({
+            container: ".j-slideshow8",
+            items: 1,
+            controlsPosition: "bottom",
+            navPosition: "bottom",
+            slideBy: "page",
+            controlsText: ["<", ">"],
+            autoHeight: true
+        });
+    }
+    if (document.getElementsByClassName("j-slideshow8").length > 0) {
+        initiateSlideshows8();
+    }
     function getDownloadStats(url, linkId) {
         var $link = document.getElementById(linkId);
         var $fileSize = document.getElementById(linkId + "-fileSize");
